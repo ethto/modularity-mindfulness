@@ -2,3 +2,8 @@ html {
   font-family: "Noto Sans Japanese", sans-serif;
   font-family: "Noto Sans", sans-serif;
 }
+
+.list-group-item-inline, .header-nav-ul-li-a {
+  display: inline-block;
+  color: #b64c6e;
+}
