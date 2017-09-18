@@ -5,7 +5,17 @@ html {
 
 .list-group-item-inline, .header-nav-ul-li-a {
   display: inline-block;
+  color: #d89fb0;
+  text-decoration: none;
+}
+
+.header-nav-ul-li-a {
+  border-bottom: 1px solid #d89fb0;
+}
+
+.header-nav-ul-li-a:hover {
   color: #b64c6e;
+  border-bottom: 1px solid #b64c6e;
 }
 
 hr {
@@ -14,12 +24,11 @@ hr {
 
 .btn-a, .btn, .btn-ghost {
   text-decoration: none;
-  border-color: #b64c6e;
-  border-width: thin;
-  color: #b64c6e;
+  color: #d89fb0;
+  border-color: #d89fb0;
 }
 
-.btn:hover, a:hover {
+.btn:hover, .btn-a:hover {
   color: #860927;
   background-color: #d89fb0;
   border-color: #860927;
