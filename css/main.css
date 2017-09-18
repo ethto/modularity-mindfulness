@@ -12,9 +12,23 @@ hr {
   border-color: #e2e2e2;
 }
 
-.btn-a, .btn {
+.btn-a, .btn, .btn-ghost {
   text-decoration: none;
   border-color: #b64c6e;
   border-width: thin;
   color: #b64c6e;
+}
+
+.btn:hover {
+  color: #860927;
+  background-color: #D89FB0;
+  border-color: #860927;
+}
+
+
+
+@media only screen and (min-width: 60em) {
+
+
+
 }
