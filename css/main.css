@@ -19,16 +19,20 @@ hr {
   color: #b64c6e;
 }
 
-.btn:hover {
+.btn:hover, a:hover {
   color: #860927;
-  background-color: #D89FB0;
+  background-color: #d89fb0;
   border-color: #860927;
 }
 
 
-
 @media only screen and (min-width: 60em) {
 
+  .title {
+    text-align: left;
+  }
 
-
+  .header-nav {
+    text-align: right;
+  }
 }
