@@ -34,13 +34,20 @@ hr {
   border-color: #860927;
 }
 
+@media only screen and (min-width: 38em) {
+
+.third-image {
+  padding: 1em 0.5em 1em 0;
+}
+
+.third-text {
+  padding: 1em 0 1em 0.5em;
+}
+
 @media only screen and (min-width: 60em) {
 
-  .title {
-    text-align: left;
+  .third-image, .third-text {
+    padding: 0;
   }
 
-  .header-nav {
-    text-align: right;
-  }
 }
