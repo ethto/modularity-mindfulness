@@ -11,3 +11,10 @@ html {
 hr {
   border-color: #e2e2e2;
 }
+
+.btn-a, .btn {
+  text-decoration: none;
+  border-color: #b64c6e;
+  border-width: thin;
+  color: #b64c6e;
+}
