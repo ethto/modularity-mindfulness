@@ -1,6 +1,6 @@
 html {
-  font-family: "Noto Sans Japanese", sans-serif;
   font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Japanese", sans-serif;
 }
 
 .list-group-item-inline, .header-nav-ul-li-a {
@@ -28,6 +28,12 @@ hr {
   border-color: #d89fb0;
 }
 
+.btn-ghost {
+  text-decoration: none;
+  color: #d89fb0;
+  border-color: #d89fb0;
+}
+
 .btn:hover, .btn-a:hover {
   color: #860927;
   background-color: #d89fb0;
@@ -36,12 +42,14 @@ hr {
 
 @media only screen and (min-width: 38em) {
 
-.third-image {
-  padding: 1em 0.5em 1em 0;
+  .third-image {
+    padding: 2em .5em 1em 0;
+  }
+
 }
 
 .third-text {
-  padding: 1em 0 1em 0.5em;
+  padding: 1em 0 1em .5em;
 }
 
 @media only screen and (min-width: 60em) {
