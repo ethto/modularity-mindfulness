@@ -7,3 +7,7 @@ html {
   display: inline-block;
   color: #b64c6e;
 }
+
+hr {
+  border-color: #e2e2e2;
+}
